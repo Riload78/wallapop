@@ -1,0 +1,25 @@
+{
+	"Welcome to ": "Bienvenido a ",
+	"Injection example: ": "Ejemplo de inyección: ",
+	"Conditionals": "Condicionales",
+	"Loops": "Bucles",
+	"Mouse": {
+		"one": "Ratón",
+		"other": "Ratones"
+	},
+	"i18n example for plurals": "i18n example for plurals",
+	"years": {
+		"one": "año",
+		"other": "años"
+	},
+	"Hello": "Hola",
+	"Features": "Caractrísticas",
+	"Download": "Descarga",
+	"Enter a new age of web design": "Entra a una nueva era del diseño",
+	"This section is perfect for featuring some information about your application, why it was built, the problem it solves, or anything else! There's plenty of space for text here, so don't worry about writing too much.": "Esta sección es perfecta para presentar información sobre su aplicación, por qué se construyó, el problema que resuelve o cualquier otra cosa. Aquí hay mucho espacio para el texto, así que no te preocupes por escribir demasiado.",
+	"Invalid credentials": "Crednciales erróneas",
+	"Private zone": "Zona privada",
+	"Login": "Login",
+	"Logout": "Logout",
+	"My agents": "Mis agentes"
+}

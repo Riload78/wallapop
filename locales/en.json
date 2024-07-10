@@ -1,0 +1,26 @@
+{
+	"Welcome to ": "Welcome to ",
+	"Injection example: ": "Injection example: ",
+	"Conditionals": "Conditionals",
+	"Loops": "Loops",
+	"Mouse": {
+		"one": "Mouse",
+		"other": "Mice"
+	},
+	"i18n example for plurals": "i18n example for plurals",
+	"years": {
+		"one": "year",
+		"other": "years"
+	},
+	"Hello": "Hello",
+	"Features": "Features",
+	"Download": "Download",
+	"Enter a new age of web design": "Enter a new age of web design",
+	"This section is perfect for featuring some information about your application, why it was built, the problem it solves, or anything else! There's plenty of space for text here, so don't worry about writing too much.": "This section is perfect for featuring some information about your application, why it was built, the problem it solves, or anything else! There's plenty of space for text here, so don't worry about writing too much.",
+	"Invalid credentials": "Invalid credentials",
+	"Private zone": "Private zone",
+	"Login": "Login",
+	"Logout": "Logout",
+	"Agents list": "Agents list",
+	"My agents": "My agents"
+}

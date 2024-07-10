@@ -1,0 +1,57 @@
+<%- include('header.ejs') %>
+
+  <!-- Mashead header-->
+  <header class="masthead">
+    <div class="container px-5">
+        <div class="row gx-5 align-items-center">
+            <div class="col-lg-6">
+                <!-- Mashead text and app badges-->
+                <div class="mb-5 mb-lg-0 text-center text-lg-start">
+
+                  <h1 class="display-1 lh-1 mb-3"><%= title %></h1>
+                  <p><%= __('Welcome to ') %><%= title %></p>
+
+                  <%= otracosa %>
+                  <p>
+                    <%= __('Injection example: ') %><%= inyeccion %> (se cambia el igual por un guión)
+                  </p>
+
+                  <h2><%= __('Conditionals') %></h2>
+                  <p>
+                    <% if (esPar) { %>
+                      El segundo actual es: <%= segundoActual %> y es par
+                    <% } else { %>
+                      El segundo actual es: <%= segundoActual %> y es impar
+                    <% }  %>
+                  </p>
+
+                  <h2><%= __('Loops') %></h2>
+                  <% users.forEach(user => { %>
+                    <p><%= user.name %> tiene <%= user.age %> <%= __n('years', user.age) %></p>
+                  <% }) %>
+
+                  <h2><%= __('i18n example for plurals') %></h2>
+                  <p>0 <%= __n('Mouse', 0) %></p>
+                  <p>1 <%= __n('Mouse', 1) %></p>
+                  <p>2 <%= __n('Mouse', 2) %></p>
+                  <p>3 <%= __n('Mouse', 3) %></p>
+                  <p>4 <%= __n('Mouse', 4) %></p>
+
+                  <p><%= texto %></p>
+
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+
+
+<%- include('footer.ejs') %>
